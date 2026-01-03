@@ -1,0 +1,72 @@
+# Pin name action command file
+
+# Start of element R2
+ChangePinName(R2, 1, 1)
+ChangePinName(R2, 2, 2)
+
+# Start of element R4
+ChangePinName(R4, 1, 1)
+ChangePinName(R4, 2, 2)
+
+# Start of element R5
+ChangePinName(R5, 1, 1)
+ChangePinName(R5, 2, 2)
+
+# Start of element R3
+ChangePinName(R3, 1, 1)
+ChangePinName(R3, 2, 2)
+
+# Start of element R1
+ChangePinName(R1, 8, 8)
+ChangePinName(R1, 7, 7)
+ChangePinName(R1, 6, 6)
+ChangePinName(R1, 1, 1)
+ChangePinName(R1, 5, 5)
+ChangePinName(R1, 4, 4)
+ChangePinName(R1, 3, 3)
+ChangePinName(R1, 2, 2)
+
+# Start of element CONN1
+ChangePinName(CONN1, 5, 5)
+ChangePinName(CONN1, 3, 3)
+ChangePinName(CONN1, 1, 1)
+ChangePinName(CONN1, 6, 6)
+ChangePinName(CONN1, 4, 4)
+ChangePinName(CONN1, 2, 2)
+
+# Start of element D1
+ChangePinName(D1, 2, g)
+ChangePinName(D1, 1, f)
+ChangePinName(D1, 6, e)
+ChangePinName(D1, 9, dp)
+ChangePinName(D1, 7, d)
+ChangePinName(D1, 8, c)
+ChangePinName(D1, 13, b)
+ChangePinName(D1, 14, a)
+ChangePinName(D1, 12, CC)
+ChangePinName(D1, 4, CC)
+
+# Start of element U2
+ChangePinName(U2, 11, Y)
+ChangePinName(U2, 13, B)
+ChangePinName(U2, 12, A)
+ChangePinName(U2, 3, Y)
+ChangePinName(U2, 2, B)
+ChangePinName(U2, 1, A)
+ChangePinName(U2, unknown, unknown)
+ChangePinName(U2, unknown, unknown)
+ChangePinName(U2, 6, Y)
+ChangePinName(U2, 5, B)
+ChangePinName(U2, 4, A)
+
+# Start of element U1
+ChangePinName(U1, 8, Y)
+ChangePinName(U1, 9, A)
+ChangePinName(U1, 2, Y)
+ChangePinName(U1, 1, A)
+ChangePinName(U1, 6, Y)
+ChangePinName(U1, 5, A)
+ChangePinName(U1, unknown, unknown)
+ChangePinName(U1, unknown, unknown)
+ChangePinName(U1, 4, Y)
+ChangePinName(U1, 3, A)

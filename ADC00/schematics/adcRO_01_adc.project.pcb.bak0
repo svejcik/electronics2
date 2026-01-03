@@ -1,0 +1,897 @@
+# release: pcb 1.99x
+# To read pcb files, the pcb version (or the cvs source date) must be >= the file version
+FileVersion[20070407]
+PCB["" 600000 500000]
+Grid[10000.000000 0 0 0]
+Cursor[0 0 0.000000]
+PolyArea[200000000.000000]
+Thermal[0.500000]
+DRC[1000 1000 1000 1000 1500 1000]
+Flags("nameonpcb,uniquename,clearnew,snappin")
+Groups("1,c:2,s:3:4:5:6:7:8")
+Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP14" "U30" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	
+	Pin(350 650 60 28 "8" 0x01)
+	Pin(350 550 60 28 "9" 0x01)
+	Pin(350 450 60 28 "10" 0x01)
+	Pin(350 350 60 28 "11" 0x01)
+	Pin(350 250 60 28 "12" 0x01)
+	Pin(350 150 60 28 "13" 0x01)
+	Pin(350 50 60 28 "14" 0x01)
+	
+	ElementLine(0 0 0 700 10)
+	ElementLine(0 700 400 700 10)
+	ElementLine(400 700 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP8" "U34" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	
+	Pin(350 350 60 28 "5" 0x01)
+	Pin(350 250 60 28 "6" 0x01)
+	Pin(350 150 60 28 "7" 0x01)
+	Pin(350 50 60 28 "8" 0x01)
+	
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 400 400 10)
+	ElementLine(400 400 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP8" "U33" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	
+	Pin(350 350 60 28 "5" 0x01)
+	Pin(350 250 60 28 "6" 0x01)
+	Pin(350 150 60 28 "7" 0x01)
+	Pin(350 50 60 28 "8" 0x01)
+	
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 400 400 10)
+	ElementLine(400 400 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP8" "U32" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	
+	Pin(350 350 60 28 "5" 0x01)
+	Pin(350 250 60 28 "6" 0x01)
+	Pin(350 150 60 28 "7" 0x01)
+	Pin(350 50 60 28 "8" 0x01)
+	
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 400 400 10)
+	ElementLine(400 400 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP8" "U31" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	
+	Pin(350 350 60 28 "5" 0x01)
+	Pin(350 250 60 28 "6" 0x01)
+	Pin(350 150 60 28 "7" 0x01)
+	Pin(350 50 60 28 "8" 0x01)
+	
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 400 400 10)
+	ElementLine(400 400 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP14" "U28" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	
+	Pin(350 650 60 28 "8" 0x01)
+	Pin(350 550 60 28 "9" 0x01)
+	Pin(350 450 60 28 "10" 0x01)
+	Pin(350 350 60 28 "11" 0x01)
+	Pin(350 250 60 28 "12" 0x01)
+	Pin(350 150 60 28 "13" 0x01)
+	Pin(350 50 60 28 "14" 0x01)
+	
+	ElementLine(0 0 0 700 10)
+	ElementLine(0 700 400 700 10)
+	ElementLine(400 700 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP14" "U24" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	
+	Pin(350 650 60 28 "8" 0x01)
+	Pin(350 550 60 28 "9" 0x01)
+	Pin(350 450 60 28 "10" 0x01)
+	Pin(350 350 60 28 "11" 0x01)
+	Pin(350 250 60 28 "12" 0x01)
+	Pin(350 150 60 28 "13" 0x01)
+	Pin(350 50 60 28 "14" 0x01)
+	
+	ElementLine(0 0 0 700 10)
+	ElementLine(0 700 400 700 10)
+	ElementLine(400 700 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP14" "U21" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	
+	Pin(350 650 60 28 "8" 0x01)
+	Pin(350 550 60 28 "9" 0x01)
+	Pin(350 450 60 28 "10" 0x01)
+	Pin(350 350 60 28 "11" 0x01)
+	Pin(350 250 60 28 "12" 0x01)
+	Pin(350 150 60 28 "13" 0x01)
+	Pin(350 50 60 28 "14" 0x01)
+	
+	ElementLine(0 0 0 700 10)
+	ElementLine(0 700 400 700 10)
+	ElementLine(400 700 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP14" "U20" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	
+	Pin(350 650 60 28 "8" 0x01)
+	Pin(350 550 60 28 "9" 0x01)
+	Pin(350 450 60 28 "10" 0x01)
+	Pin(350 350 60 28 "11" 0x01)
+	Pin(350 250 60 28 "12" 0x01)
+	Pin(350 150 60 28 "13" 0x01)
+	Pin(350 50 60 28 "14" 0x01)
+	
+	ElementLine(0 0 0 700 10)
+	ElementLine(0 700 400 700 10)
+	ElementLine(400 700 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP14" "U22" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	
+	Pin(350 650 60 28 "8" 0x01)
+	Pin(350 550 60 28 "9" 0x01)
+	Pin(350 450 60 28 "10" 0x01)
+	Pin(350 350 60 28 "11" 0x01)
+	Pin(350 250 60 28 "12" 0x01)
+	Pin(350 150 60 28 "13" 0x01)
+	Pin(350 50 60 28 "14" 0x01)
+	
+	ElementLine(0 0 0 700 10)
+	ElementLine(0 700 400 700 10)
+	ElementLine(400 700 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP8" "U27" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	
+	Pin(350 350 60 28 "5" 0x01)
+	Pin(350 250 60 28 "6" 0x01)
+	Pin(350 150 60 28 "7" 0x01)
+	Pin(350 50 60 28 "8" 0x01)
+	
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 400 400 10)
+	ElementLine(400 400 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "R025" "R20" "1.0K" 120 30 0 100 0x00)
+(
+	Pin(0 50 68 38 "1" 0x101)
+	Pin(400 50 68 38 "2" 0x01)
+	ElementLine(100 0 300 0 20)
+	ElementLine(300 0 300 100 20)
+	ElementLine(300 100 100 100 20)
+	ElementLine(100 100 100 0 20)
+	ElementLine(0 50 100 50 20)
+	ElementLine(300 50 400 50 20)
+	Mark(0 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP8" "U23" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	
+	Pin(350 350 60 28 "5" 0x01)
+	Pin(350 250 60 28 "6" 0x01)
+	Pin(350 150 60 28 "7" 0x01)
+	Pin(350 50 60 28 "8" 0x01)
+	
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 400 400 10)
+	ElementLine(400 400 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER2" "CONN62" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 Pin(50 150 60 38 "2" 0x01)
+	 
+	ElementLine(0 0 0 200 10)
+	ElementLine(0 200 100 200 10)
+	ElementLine(100 200 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER2" "CONN61" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 Pin(50 150 60 38 "2" 0x01)
+	 
+	ElementLine(0 0 0 200 10)
+	ElementLine(0 200 100 200 10)
+	ElementLine(100 200 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER2" "CONN60" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 Pin(50 150 60 38 "2" 0x01)
+	 
+	ElementLine(0 0 0 200 10)
+	ElementLine(0 200 100 200 10)
+	ElementLine(100 200 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP16" "U64" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	Pin(50 750 60 28 "8" 0x01)
+	
+	Pin(350 750 60 28 "9" 0x01)
+	Pin(350 650 60 28 "10" 0x01)
+	Pin(350 550 60 28 "11" 0x01)
+	Pin(350 450 60 28 "12" 0x01)
+	Pin(350 350 60 28 "13" 0x01)
+	Pin(350 250 60 28 "14" 0x01)
+	Pin(350 150 60 28 "15" 0x01)
+	Pin(350 50 60 28 "16" 0x01)
+	
+	ElementLine(0 0 0 800 10)
+	ElementLine(0 800 400 800 10)
+	ElementLine(400 800 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP14" "U63" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	
+	Pin(350 650 60 28 "8" 0x01)
+	Pin(350 550 60 28 "9" 0x01)
+	Pin(350 450 60 28 "10" 0x01)
+	Pin(350 350 60 28 "11" 0x01)
+	Pin(350 250 60 28 "12" 0x01)
+	Pin(350 150 60 28 "13" 0x01)
+	Pin(350 50 60 28 "14" 0x01)
+	
+	ElementLine(0 0 0 700 10)
+	ElementLine(0 700 400 700 10)
+	ElementLine(400 700 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+Element(0x00 "R025" "R62" "unknown" 120 30 0 100 0x00)
+(
+	Pin(0 50 68 38 "1" 0x101)
+	Pin(400 50 68 38 "2" 0x01)
+	ElementLine(100 0 300 0 20)
+	ElementLine(300 0 300 100 20)
+	ElementLine(300 100 100 100 20)
+	ElementLine(100 100 100 0 20)
+	ElementLine(0 50 100 50 20)
+	ElementLine(300 50 400 50 20)
+	Mark(0 50)
+)
+Element(0x00 "R025" "R60" "unknown" 120 30 0 100 0x00)
+(
+	Pin(0 50 68 38 "1" 0x101)
+	Pin(400 50 68 38 "2" 0x01)
+	ElementLine(100 0 300 0 20)
+	ElementLine(300 0 300 100 20)
+	ElementLine(300 100 100 100 20)
+	ElementLine(100 100 100 0 20)
+	ElementLine(0 50 100 50 20)
+	ElementLine(300 50 400 50 20)
+	Mark(0 50)
+)
+Element(0x00 "R025" "R61" "unknown" 120 30 0 100 0x00)
+(
+	Pin(0 50 68 38 "1" 0x101)
+	Pin(400 50 68 38 "2" 0x01)
+	ElementLine(100 0 300 0 20)
+	ElementLine(300 0 300 100 20)
+	ElementLine(300 100 100 100 20)
+	ElementLine(100 100 100 0 20)
+	ElementLine(0 50 100 50 20)
+	ElementLine(300 50 400 50 20)
+	Mark(0 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP16" "U60" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	Pin(50 750 60 28 "8" 0x01)
+	
+	Pin(350 750 60 28 "9" 0x01)
+	Pin(350 650 60 28 "10" 0x01)
+	Pin(350 550 60 28 "11" 0x01)
+	Pin(350 450 60 28 "12" 0x01)
+	Pin(350 350 60 28 "13" 0x01)
+	Pin(350 250 60 28 "14" 0x01)
+	Pin(350 150 60 28 "15" 0x01)
+	Pin(350 50 60 28 "16" 0x01)
+	
+	ElementLine(0 0 0 800 10)
+	ElementLine(0 800 400 800 10)
+	ElementLine(400 800 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP16" "U66" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	Pin(50 750 60 28 "8" 0x01)
+	
+	Pin(350 750 60 28 "9" 0x01)
+	Pin(350 650 60 28 "10" 0x01)
+	Pin(350 550 60 28 "11" 0x01)
+	Pin(350 450 60 28 "12" 0x01)
+	Pin(350 350 60 28 "13" 0x01)
+	Pin(350 250 60 28 "14" 0x01)
+	Pin(350 150 60 28 "15" 0x01)
+	Pin(350 50 60 28 "16" 0x01)
+	
+	ElementLine(0 0 0 800 10)
+	ElementLine(0 800 400 800 10)
+	ElementLine(400 800 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP16" "U65" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	Pin(50 750 60 28 "8" 0x01)
+	
+	Pin(350 750 60 28 "9" 0x01)
+	Pin(350 650 60 28 "10" 0x01)
+	Pin(350 550 60 28 "11" 0x01)
+	Pin(350 450 60 28 "12" 0x01)
+	Pin(350 350 60 28 "13" 0x01)
+	Pin(350 250 60 28 "14" 0x01)
+	Pin(350 150 60 28 "15" 0x01)
+	Pin(350 50 60 28 "16" 0x01)
+	
+	ElementLine(0 0 0 800 10)
+	ElementLine(0 800 400 800 10)
+	ElementLine(400 800 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP16" "U62" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	Pin(50 750 60 28 "8" 0x01)
+	
+	Pin(350 750 60 28 "9" 0x01)
+	Pin(350 650 60 28 "10" 0x01)
+	Pin(350 550 60 28 "11" 0x01)
+	Pin(350 450 60 28 "12" 0x01)
+	Pin(350 350 60 28 "13" 0x01)
+	Pin(350 250 60 28 "14" 0x01)
+	Pin(350 150 60 28 "15" 0x01)
+	Pin(350 50 60 28 "16" 0x01)
+	
+	ElementLine(0 0 0 800 10)
+	ElementLine(0 800 400 800 10)
+	ElementLine(400 800 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP14" "U61" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	
+	Pin(350 650 60 28 "8" 0x01)
+	Pin(350 550 60 28 "9" 0x01)
+	Pin(350 450 60 28 "10" 0x01)
+	Pin(350 350 60 28 "11" 0x01)
+	Pin(350 250 60 28 "12" 0x01)
+	Pin(350 150 60 28 "13" 0x01)
+	Pin(350 50 60 28 "14" 0x01)
+	
+	ElementLine(0 0 0 700 10)
+	ElementLine(0 700 400 700 10)
+	ElementLine(400 700 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+Layer(1 "component")
+(
+)
+Layer(2 "solder")
+(
+)
+Layer(3 "outline")
+(
+)
+Layer(4 "GND")
+(
+)
+Layer(5 "power")
+(
+)
+Layer(6 "signal1")
+(
+)
+Layer(7 "signal2")
+(
+)
+Layer(8 "signal3")
+(
+)
+Layer(9 "silk")
+(
+)
+Layer(10 "silk")
+(
+)

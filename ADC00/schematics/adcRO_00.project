@@ -1,0 +1,2 @@
+schematics adcRO_00_select.sch adcRO_00_adc_1.sch adcRO_00_adc_2.sch
+output-name adcRO_02_adc.project

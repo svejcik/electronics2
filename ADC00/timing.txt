@@ -1,0 +1,11 @@
+# initialize the signals
+CM=0, CS=0, nCS=0, CK=tick, nCK=0.
+# turn on the power
+CK => nCK=0.
+.
+.
+.
+.
+.
+.
+.

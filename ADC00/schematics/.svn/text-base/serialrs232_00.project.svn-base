@@ -1,0 +1,2 @@
+schematics adcRO_00_output.sch adcRO_00_db9.sch adcRO_00_rs232framing.sch adcRO_00_timing.sch adcRO_00_modeselect.sch
+output-name selectrs232_00.project

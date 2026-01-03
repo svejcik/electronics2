@@ -1,0 +1,1321 @@
+# release: pcb 20110918
+
+# To read pcb files, the pcb version (or the git source date) must be >= the file version
+FileVersion[20070407]
+
+PCB["" 600000 500000]
+
+Grid[10000.0 0 0 0]
+Cursor[280000 80000 0.000000]
+PolyArea[200000000.000000]
+Thermal[0.500000]
+DRC[1000 1000 1000 1000 1500 1000]
+Flags("nameonpcb,uniquename,clearnew,snappin")
+Groups("1,c:2,s:3:4:5:6:7:8")
+Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
+
+Symbol[' ' 1800]
+(
+)
+Symbol['!' 1200]
+(
+	SymbolLine[0 4500 0 5000 800]
+	SymbolLine[0 1000 0 3500 800]
+)
+Symbol['"' 1200]
+(
+	SymbolLine[0 1000 0 2000 800]
+	SymbolLine[1000 1000 1000 2000 800]
+)
+Symbol['#' 1200]
+(
+	SymbolLine[0 3500 2000 3500 800]
+	SymbolLine[0 2500 2000 2500 800]
+	SymbolLine[1500 2000 1500 4000 800]
+	SymbolLine[500 2000 500 4000 800]
+)
+Symbol['$' 1200]
+(
+	SymbolLine[1500 1500 2000 2000 800]
+	SymbolLine[500 1500 1500 1500 800]
+	SymbolLine[0 2000 500 1500 800]
+	SymbolLine[0 2000 0 2500 800]
+	SymbolLine[0 2500 500 3000 800]
+	SymbolLine[500 3000 1500 3000 800]
+	SymbolLine[1500 3000 2000 3500 800]
+	SymbolLine[2000 3500 2000 4000 800]
+	SymbolLine[1500 4500 2000 4000 800]
+	SymbolLine[500 4500 1500 4500 800]
+	SymbolLine[0 4000 500 4500 800]
+	SymbolLine[1000 1000 1000 5000 800]
+)
+Symbol['%' 1200]
+(
+	SymbolLine[0 1500 0 2000 800]
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[500 1000 1000 1000 800]
+	SymbolLine[1000 1000 1500 1500 800]
+	SymbolLine[1500 1500 1500 2000 800]
+	SymbolLine[1000 2500 1500 2000 800]
+	SymbolLine[500 2500 1000 2500 800]
+	SymbolLine[0 2000 500 2500 800]
+	SymbolLine[0 5000 4000 1000 800]
+	SymbolLine[3500 5000 4000 4500 800]
+	SymbolLine[4000 4000 4000 4500 800]
+	SymbolLine[3500 3500 4000 4000 800]
+	SymbolLine[3000 3500 3500 3500 800]
+	SymbolLine[2500 4000 3000 3500 800]
+	SymbolLine[2500 4000 2500 4500 800]
+	SymbolLine[2500 4500 3000 5000 800]
+	SymbolLine[3000 5000 3500 5000 800]
+)
+Symbol['&' 1200]
+(
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[0 1500 0 2500 800]
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[0 3500 1500 2000 800]
+	SymbolLine[500 5000 1000 5000 800]
+	SymbolLine[1000 5000 2000 4000 800]
+	SymbolLine[0 2500 2500 5000 800]
+	SymbolLine[500 1000 1000 1000 800]
+	SymbolLine[1000 1000 1500 1500 800]
+	SymbolLine[1500 1500 1500 2000 800]
+	SymbolLine[0 3500 0 4500 800]
+)
+Symbol[''' 1200]
+(
+	SymbolLine[0 2000 1000 1000 800]
+)
+Symbol['(' 1200]
+(
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[0 1500 0 4500 800]
+)
+Symbol[')' 1200]
+(
+	SymbolLine[0 1000 500 1500 800]
+	SymbolLine[500 1500 500 4500 800]
+	SymbolLine[0 5000 500 4500 800]
+)
+Symbol['*' 1200]
+(
+	SymbolLine[0 2000 2000 4000 800]
+	SymbolLine[0 4000 2000 2000 800]
+	SymbolLine[0 3000 2000 3000 800]
+	SymbolLine[1000 2000 1000 4000 800]
+)
+Symbol['+' 1200]
+(
+	SymbolLine[0 3000 2000 3000 800]
+	SymbolLine[1000 2000 1000 4000 800]
+)
+Symbol[',' 1200]
+(
+	SymbolLine[0 6000 1000 5000 800]
+)
+Symbol['-' 1200]
+(
+	SymbolLine[0 3000 2000 3000 800]
+)
+Symbol['.' 1200]
+(
+	SymbolLine[0 5000 500 5000 800]
+)
+Symbol['/' 1200]
+(
+	SymbolLine[0 4500 3000 1500 800]
+)
+Symbol['0' 1200]
+(
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[0 1500 0 4500 800]
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[500 1000 1500 1000 800]
+	SymbolLine[1500 1000 2000 1500 800]
+	SymbolLine[2000 1500 2000 4500 800]
+	SymbolLine[1500 5000 2000 4500 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[0 4000 2000 2000 800]
+)
+Symbol['1' 1200]
+(
+	SymbolLine[0 1800 800 1000 800]
+	SymbolLine[800 1000 800 5000 800]
+	SymbolLine[0 5000 1500 5000 800]
+)
+Symbol['2' 1200]
+(
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[500 1000 2000 1000 800]
+	SymbolLine[2000 1000 2500 1500 800]
+	SymbolLine[2500 1500 2500 2500 800]
+	SymbolLine[0 5000 2500 2500 800]
+	SymbolLine[0 5000 2500 5000 800]
+)
+Symbol['3' 1200]
+(
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[500 1000 1500 1000 800]
+	SymbolLine[1500 1000 2000 1500 800]
+	SymbolLine[1500 5000 2000 4500 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[500 2800 1500 2800 800]
+	SymbolLine[2000 1500 2000 2300 800]
+	SymbolLine[2000 3300 2000 4500 800]
+	SymbolLine[2000 3300 1500 2800 800]
+	SymbolLine[2000 2300 1500 2800 800]
+)
+Symbol['4' 1200]
+(
+	SymbolLine[0 3500 2000 1000 800]
+	SymbolLine[0 3500 2500 3500 800]
+	SymbolLine[2000 1000 2000 5000 800]
+)
+Symbol['5' 1200]
+(
+	SymbolLine[0 1000 2000 1000 800]
+	SymbolLine[0 1000 0 3000 800]
+	SymbolLine[0 3000 500 2500 800]
+	SymbolLine[500 2500 1500 2500 800]
+	SymbolLine[1500 2500 2000 3000 800]
+	SymbolLine[2000 3000 2000 4500 800]
+	SymbolLine[1500 5000 2000 4500 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[0 4500 500 5000 800]
+)
+Symbol['6' 1200]
+(
+	SymbolLine[1500 1000 2000 1500 800]
+	SymbolLine[500 1000 1500 1000 800]
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[0 1500 0 4500 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[1500 2800 2000 3300 800]
+	SymbolLine[0 2800 1500 2800 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[1500 5000 2000 4500 800]
+	SymbolLine[2000 3300 2000 4500 800]
+)
+Symbol['7' 1200]
+(
+	SymbolLine[500 5000 2500 1000 800]
+	SymbolLine[0 1000 2500 1000 800]
+)
+Symbol['8' 1200]
+(
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[0 3700 0 4500 800]
+	SymbolLine[0 3700 700 3000 800]
+	SymbolLine[700 3000 1300 3000 800]
+	SymbolLine[1300 3000 2000 3700 800]
+	SymbolLine[2000 3700 2000 4500 800]
+	SymbolLine[1500 5000 2000 4500 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[0 2300 700 3000 800]
+	SymbolLine[0 1500 0 2300 800]
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[500 1000 1500 1000 800]
+	SymbolLine[1500 1000 2000 1500 800]
+	SymbolLine[2000 1500 2000 2300 800]
+	SymbolLine[1300 3000 2000 2300 800]
+)
+Symbol['9' 1200]
+(
+	SymbolLine[500 5000 2000 3000 800]
+	SymbolLine[2000 1500 2000 3000 800]
+	SymbolLine[1500 1000 2000 1500 800]
+	SymbolLine[500 1000 1500 1000 800]
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[0 1500 0 2500 800]
+	SymbolLine[0 2500 500 3000 800]
+	SymbolLine[500 3000 2000 3000 800]
+)
+Symbol[':' 1200]
+(
+	SymbolLine[0 2500 500 2500 800]
+	SymbolLine[0 3500 500 3500 800]
+)
+Symbol[';' 1200]
+(
+	SymbolLine[0 5000 1000 4000 800]
+	SymbolLine[1000 2500 1000 3000 800]
+)
+Symbol['<' 1200]
+(
+	SymbolLine[0 3000 1000 2000 800]
+	SymbolLine[0 3000 1000 4000 800]
+)
+Symbol['=' 1200]
+(
+	SymbolLine[0 2500 2000 2500 800]
+	SymbolLine[0 3500 2000 3500 800]
+)
+Symbol['>' 1200]
+(
+	SymbolLine[0 2000 1000 3000 800]
+	SymbolLine[0 4000 1000 3000 800]
+)
+Symbol['?' 1200]
+(
+	SymbolLine[1000 3000 1000 3500 800]
+	SymbolLine[1000 4500 1000 5000 800]
+	SymbolLine[0 1500 0 2000 800]
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[500 1000 1500 1000 800]
+	SymbolLine[1500 1000 2000 1500 800]
+	SymbolLine[2000 1500 2000 2000 800]
+	SymbolLine[1000 3000 2000 2000 800]
+)
+Symbol['@' 1200]
+(
+	SymbolLine[0 1000 0 4000 800]
+	SymbolLine[0 4000 1000 5000 800]
+	SymbolLine[1000 5000 4000 5000 800]
+	SymbolLine[5000 3500 5000 1000 800]
+	SymbolLine[5000 1000 4000 0 800]
+	SymbolLine[4000 0 1000 0 800]
+	SymbolLine[1000 0 0 1000 800]
+	SymbolLine[1500 2000 1500 3000 800]
+	SymbolLine[1500 3000 2000 3500 800]
+	SymbolLine[2000 3500 3000 3500 800]
+	SymbolLine[3000 3500 3500 3000 800]
+	SymbolLine[3500 3000 4000 3500 800]
+	SymbolLine[3500 3000 3500 1500 800]
+	SymbolLine[3500 2000 3000 1500 800]
+	SymbolLine[2000 1500 3000 1500 800]
+	SymbolLine[2000 1500 1500 2000 800]
+	SymbolLine[4000 3500 5000 3500 800]
+)
+Symbol['A' 1200]
+(
+	SymbolLine[0 2000 0 5000 800]
+	SymbolLine[0 2000 700 1000 800]
+	SymbolLine[700 1000 1800 1000 800]
+	SymbolLine[1800 1000 2500 2000 800]
+	SymbolLine[2500 2000 2500 5000 800]
+	SymbolLine[0 3000 2500 3000 800]
+)
+Symbol['B' 1200]
+(
+	SymbolLine[0 5000 2000 5000 800]
+	SymbolLine[2000 5000 2500 4500 800]
+	SymbolLine[2500 3300 2500 4500 800]
+	SymbolLine[2000 2800 2500 3300 800]
+	SymbolLine[500 2800 2000 2800 800]
+	SymbolLine[500 1000 500 5000 800]
+	SymbolLine[0 1000 2000 1000 800]
+	SymbolLine[2000 1000 2500 1500 800]
+	SymbolLine[2500 1500 2500 2300 800]
+	SymbolLine[2000 2800 2500 2300 800]
+)
+Symbol['C' 1200]
+(
+	SymbolLine[700 5000 2000 5000 800]
+	SymbolLine[0 4300 700 5000 800]
+	SymbolLine[0 1700 0 4300 800]
+	SymbolLine[0 1700 700 1000 800]
+	SymbolLine[700 1000 2000 1000 800]
+)
+Symbol['D' 1200]
+(
+	SymbolLine[500 1000 500 5000 800]
+	SymbolLine[1800 1000 2500 1700 800]
+	SymbolLine[2500 1700 2500 4300 800]
+	SymbolLine[1800 5000 2500 4300 800]
+	SymbolLine[0 5000 1800 5000 800]
+	SymbolLine[0 1000 1800 1000 800]
+)
+Symbol['E' 1200]
+(
+	SymbolLine[0 2800 1500 2800 800]
+	SymbolLine[0 5000 2000 5000 800]
+	SymbolLine[0 1000 0 5000 800]
+	SymbolLine[0 1000 2000 1000 800]
+)
+Symbol['F' 1200]
+(
+	SymbolLine[0 1000 0 5000 800]
+	SymbolLine[0 1000 2000 1000 800]
+	SymbolLine[0 2800 1500 2800 800]
+)
+Symbol['G' 1200]
+(
+	SymbolLine[2000 1000 2500 1500 800]
+	SymbolLine[500 1000 2000 1000 800]
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[0 1500 0 4500 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[500 5000 2000 5000 800]
+	SymbolLine[2000 5000 2500 4500 800]
+	SymbolLine[2500 3500 2500 4500 800]
+	SymbolLine[2000 3000 2500 3500 800]
+	SymbolLine[1000 3000 2000 3000 800]
+)
+Symbol['H' 1200]
+(
+	SymbolLine[0 1000 0 5000 800]
+	SymbolLine[2500 1000 2500 5000 800]
+	SymbolLine[0 3000 2500 3000 800]
+)
+Symbol['I' 1200]
+(
+	SymbolLine[0 1000 1000 1000 800]
+	SymbolLine[500 1000 500 5000 800]
+	SymbolLine[0 5000 1000 5000 800]
+)
+Symbol['J' 1200]
+(
+	SymbolLine[700 1000 1500 1000 800]
+	SymbolLine[1500 1000 1500 4500 800]
+	SymbolLine[1000 5000 1500 4500 800]
+	SymbolLine[500 5000 1000 5000 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[0 4500 0 4000 800]
+)
+Symbol['K' 1200]
+(
+	SymbolLine[0 1000 0 5000 800]
+	SymbolLine[0 3000 2000 1000 800]
+	SymbolLine[0 3000 2000 5000 800]
+)
+Symbol['L' 1200]
+(
+	SymbolLine[0 1000 0 5000 800]
+	SymbolLine[0 5000 2000 5000 800]
+)
+Symbol['M' 1200]
+(
+	SymbolLine[0 1000 0 5000 800]
+	SymbolLine[0 1000 1500 3000 800]
+	SymbolLine[1500 3000 3000 1000 800]
+	SymbolLine[3000 1000 3000 5000 800]
+)
+Symbol['N' 1200]
+(
+	SymbolLine[0 1000 0 5000 800]
+	SymbolLine[0 1000 2500 5000 800]
+	SymbolLine[2500 1000 2500 5000 800]
+)
+Symbol['O' 1200]
+(
+	SymbolLine[0 1500 0 4500 800]
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[500 1000 1500 1000 800]
+	SymbolLine[1500 1000 2000 1500 800]
+	SymbolLine[2000 1500 2000 4500 800]
+	SymbolLine[1500 5000 2000 4500 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[0 4500 500 5000 800]
+)
+Symbol['P' 1200]
+(
+	SymbolLine[500 1000 500 5000 800]
+	SymbolLine[0 1000 2000 1000 800]
+	SymbolLine[2000 1000 2500 1500 800]
+	SymbolLine[2500 1500 2500 2500 800]
+	SymbolLine[2000 3000 2500 2500 800]
+	SymbolLine[500 3000 2000 3000 800]
+)
+Symbol['Q' 1200]
+(
+	SymbolLine[0 1500 0 4500 800]
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[500 1000 1500 1000 800]
+	SymbolLine[1500 1000 2000 1500 800]
+	SymbolLine[2000 1500 2000 4000 800]
+	SymbolLine[1000 5000 2000 4000 800]
+	SymbolLine[500 5000 1000 5000 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[1000 3500 2000 5000 800]
+)
+Symbol['R' 1200]
+(
+	SymbolLine[0 1000 2000 1000 800]
+	SymbolLine[2000 1000 2500 1500 800]
+	SymbolLine[2500 1500 2500 2500 800]
+	SymbolLine[2000 3000 2500 2500 800]
+	SymbolLine[500 3000 2000 3000 800]
+	SymbolLine[500 1000 500 5000 800]
+	SymbolLine[1300 3000 2500 5000 800]
+)
+Symbol['S' 1200]
+(
+	SymbolLine[2000 1000 2500 1500 800]
+	SymbolLine[500 1000 2000 1000 800]
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[0 1500 0 2500 800]
+	SymbolLine[0 2500 500 3000 800]
+	SymbolLine[500 3000 2000 3000 800]
+	SymbolLine[2000 3000 2500 3500 800]
+	SymbolLine[2500 3500 2500 4500 800]
+	SymbolLine[2000 5000 2500 4500 800]
+	SymbolLine[500 5000 2000 5000 800]
+	SymbolLine[0 4500 500 5000 800]
+)
+Symbol['T' 1200]
+(
+	SymbolLine[0 1000 2000 1000 800]
+	SymbolLine[1000 1000 1000 5000 800]
+)
+Symbol['U' 1200]
+(
+	SymbolLine[0 1000 0 4500 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[1500 5000 2000 4500 800]
+	SymbolLine[2000 1000 2000 4500 800]
+)
+Symbol['V' 1200]
+(
+	SymbolLine[0 1000 1000 5000 800]
+	SymbolLine[1000 5000 2000 1000 800]
+)
+Symbol['W' 1200]
+(
+	SymbolLine[0 1000 0 3000 800]
+	SymbolLine[0 3000 500 5000 800]
+	SymbolLine[500 5000 1500 3000 800]
+	SymbolLine[1500 3000 2500 5000 800]
+	SymbolLine[2500 5000 3000 3000 800]
+	SymbolLine[3000 3000 3000 1000 800]
+)
+Symbol['X' 1200]
+(
+	SymbolLine[0 5000 2500 1000 800]
+	SymbolLine[0 1000 2500 5000 800]
+)
+Symbol['Y' 1200]
+(
+	SymbolLine[0 1000 1000 3000 800]
+	SymbolLine[1000 3000 2000 1000 800]
+	SymbolLine[1000 3000 1000 5000 800]
+)
+Symbol['Z' 1200]
+(
+	SymbolLine[0 1000 2500 1000 800]
+	SymbolLine[0 5000 2500 1000 800]
+	SymbolLine[0 5000 2500 5000 800]
+)
+Symbol['[' 1200]
+(
+	SymbolLine[0 1000 500 1000 800]
+	SymbolLine[0 1000 0 5000 800]
+	SymbolLine[0 5000 500 5000 800]
+)
+Symbol['\' 1200]
+(
+	SymbolLine[0 1500 3000 4500 800]
+)
+Symbol[']' 1200]
+(
+	SymbolLine[0 1000 500 1000 800]
+	SymbolLine[500 1000 500 5000 800]
+	SymbolLine[0 5000 500 5000 800]
+)
+Symbol['^' 1200]
+(
+	SymbolLine[0 1500 500 1000 800]
+	SymbolLine[500 1000 1000 1500 800]
+)
+Symbol['_' 1200]
+(
+	SymbolLine[0 5000 2000 5000 800]
+)
+Symbol['a' 1200]
+(
+	SymbolLine[1500 3000 2000 3500 800]
+	SymbolLine[500 3000 1500 3000 800]
+	SymbolLine[0 3500 500 3000 800]
+	SymbolLine[0 3500 0 4500 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[2000 3000 2000 4500 800]
+	SymbolLine[2000 4500 2500 5000 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[1500 5000 2000 4500 800]
+)
+Symbol['b' 1200]
+(
+	SymbolLine[0 1000 0 5000 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[1500 5000 2000 4500 800]
+	SymbolLine[2000 3500 2000 4500 800]
+	SymbolLine[1500 3000 2000 3500 800]
+	SymbolLine[500 3000 1500 3000 800]
+	SymbolLine[0 3500 500 3000 800]
+)
+Symbol['c' 1200]
+(
+	SymbolLine[500 3000 2000 3000 800]
+	SymbolLine[0 3500 500 3000 800]
+	SymbolLine[0 3500 0 4500 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[500 5000 2000 5000 800]
+)
+Symbol['d' 1200]
+(
+	SymbolLine[2000 1000 2000 5000 800]
+	SymbolLine[1500 5000 2000 4500 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[0 3500 0 4500 800]
+	SymbolLine[0 3500 500 3000 800]
+	SymbolLine[500 3000 1500 3000 800]
+	SymbolLine[1500 3000 2000 3500 800]
+)
+Symbol['e' 1200]
+(
+	SymbolLine[500 5000 2000 5000 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[0 3500 0 4500 800]
+	SymbolLine[0 3500 500 3000 800]
+	SymbolLine[500 3000 1500 3000 800]
+	SymbolLine[1500 3000 2000 3500 800]
+	SymbolLine[0 4000 2000 4000 800]
+	SymbolLine[2000 4000 2000 3500 800]
+)
+Symbol['f' 1000]
+(
+	SymbolLine[500 1500 500 5000 800]
+	SymbolLine[500 1500 1000 1000 800]
+	SymbolLine[1000 1000 1500 1000 800]
+	SymbolLine[0 3000 1000 3000 800]
+)
+Symbol['g' 1200]
+(
+	SymbolLine[1500 3000 2000 3500 800]
+	SymbolLine[500 3000 1500 3000 800]
+	SymbolLine[0 3500 500 3000 800]
+	SymbolLine[0 3500 0 4500 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[1500 5000 2000 4500 800]
+	SymbolLine[0 6000 500 6500 800]
+	SymbolLine[500 6500 1500 6500 800]
+	SymbolLine[1500 6500 2000 6000 800]
+	SymbolLine[2000 3000 2000 6000 800]
+)
+Symbol['h' 1200]
+(
+	SymbolLine[0 1000 0 5000 800]
+	SymbolLine[0 3500 500 3000 800]
+	SymbolLine[500 3000 1500 3000 800]
+	SymbolLine[1500 3000 2000 3500 800]
+	SymbolLine[2000 3500 2000 5000 800]
+)
+Symbol['i' 1000]
+(
+	SymbolLine[0 2000 0 2100 1000]
+	SymbolLine[0 3500 0 5000 800]
+)
+Symbol['j' 1000]
+(
+	SymbolLine[500 2000 500 2100 1000]
+	SymbolLine[500 3500 500 6000 800]
+	SymbolLine[0 6500 500 6000 800]
+)
+Symbol['k' 1200]
+(
+	SymbolLine[0 1000 0 5000 800]
+	SymbolLine[0 3500 1500 5000 800]
+	SymbolLine[0 3500 1000 2500 800]
+)
+Symbol['l' 1000]
+(
+	SymbolLine[0 1000 0 4500 800]
+	SymbolLine[0 4500 500 5000 800]
+)
+Symbol['m' 1200]
+(
+	SymbolLine[500 3500 500 5000 800]
+	SymbolLine[500 3500 1000 3000 800]
+	SymbolLine[1000 3000 1500 3000 800]
+	SymbolLine[1500 3000 2000 3500 800]
+	SymbolLine[2000 3500 2000 5000 800]
+	SymbolLine[2000 3500 2500 3000 800]
+	SymbolLine[2500 3000 3000 3000 800]
+	SymbolLine[3000 3000 3500 3500 800]
+	SymbolLine[3500 3500 3500 5000 800]
+	SymbolLine[0 3000 500 3500 800]
+)
+Symbol['n' 1200]
+(
+	SymbolLine[500 3500 500 5000 800]
+	SymbolLine[500 3500 1000 3000 800]
+	SymbolLine[1000 3000 1500 3000 800]
+	SymbolLine[1500 3000 2000 3500 800]
+	SymbolLine[2000 3500 2000 5000 800]
+	SymbolLine[0 3000 500 3500 800]
+)
+Symbol['o' 1200]
+(
+	SymbolLine[0 3500 0 4500 800]
+	SymbolLine[0 3500 500 3000 800]
+	SymbolLine[500 3000 1500 3000 800]
+	SymbolLine[1500 3000 2000 3500 800]
+	SymbolLine[2000 3500 2000 4500 800]
+	SymbolLine[1500 5000 2000 4500 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[0 4500 500 5000 800]
+)
+Symbol['p' 1200]
+(
+	SymbolLine[500 3500 500 6500 800]
+	SymbolLine[0 3000 500 3500 800]
+	SymbolLine[500 3500 1000 3000 800]
+	SymbolLine[1000 3000 2000 3000 800]
+	SymbolLine[2000 3000 2500 3500 800]
+	SymbolLine[2500 3500 2500 4500 800]
+	SymbolLine[2000 5000 2500 4500 800]
+	SymbolLine[1000 5000 2000 5000 800]
+	SymbolLine[500 4500 1000 5000 800]
+)
+Symbol['q' 1200]
+(
+	SymbolLine[2000 3500 2000 6500 800]
+	SymbolLine[1500 3000 2000 3500 800]
+	SymbolLine[500 3000 1500 3000 800]
+	SymbolLine[0 3500 500 3000 800]
+	SymbolLine[0 3500 0 4500 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[1500 5000 2000 4500 800]
+)
+Symbol['r' 1200]
+(
+	SymbolLine[500 3500 500 5000 800]
+	SymbolLine[500 3500 1000 3000 800]
+	SymbolLine[1000 3000 2000 3000 800]
+	SymbolLine[0 3000 500 3500 800]
+)
+Symbol['s' 1200]
+(
+	SymbolLine[500 5000 2000 5000 800]
+	SymbolLine[2000 5000 2500 4500 800]
+	SymbolLine[2000 4000 2500 4500 800]
+	SymbolLine[500 4000 2000 4000 800]
+	SymbolLine[0 3500 500 4000 800]
+	SymbolLine[0 3500 500 3000 800]
+	SymbolLine[500 3000 2000 3000 800]
+	SymbolLine[2000 3000 2500 3500 800]
+	SymbolLine[0 4500 500 5000 800]
+)
+Symbol['t' 1000]
+(
+	SymbolLine[500 1000 500 4500 800]
+	SymbolLine[500 4500 1000 5000 800]
+	SymbolLine[0 2500 1000 2500 800]
+)
+Symbol['u' 1200]
+(
+	SymbolLine[0 3000 0 4500 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[1500 5000 2000 4500 800]
+	SymbolLine[2000 3000 2000 4500 800]
+)
+Symbol['v' 1200]
+(
+	SymbolLine[0 3000 1000 5000 800]
+	SymbolLine[2000 3000 1000 5000 800]
+)
+Symbol['w' 1200]
+(
+	SymbolLine[0 3000 0 4500 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[500 5000 1000 5000 800]
+	SymbolLine[1000 5000 1500 4500 800]
+	SymbolLine[1500 3000 1500 4500 800]
+	SymbolLine[1500 4500 2000 5000 800]
+	SymbolLine[2000 5000 2500 5000 800]
+	SymbolLine[2500 5000 3000 4500 800]
+	SymbolLine[3000 3000 3000 4500 800]
+)
+Symbol['x' 1200]
+(
+	SymbolLine[0 3000 2000 5000 800]
+	SymbolLine[0 5000 2000 3000 800]
+)
+Symbol['y' 1200]
+(
+	SymbolLine[0 3000 0 4500 800]
+	SymbolLine[0 4500 500 5000 800]
+	SymbolLine[2000 3000 2000 6000 800]
+	SymbolLine[1500 6500 2000 6000 800]
+	SymbolLine[500 6500 1500 6500 800]
+	SymbolLine[0 6000 500 6500 800]
+	SymbolLine[500 5000 1500 5000 800]
+	SymbolLine[1500 5000 2000 4500 800]
+)
+Symbol['z' 1200]
+(
+	SymbolLine[0 3000 2000 3000 800]
+	SymbolLine[0 5000 2000 3000 800]
+	SymbolLine[0 5000 2000 5000 800]
+)
+Symbol['{' 1200]
+(
+	SymbolLine[500 1500 1000 1000 800]
+	SymbolLine[500 1500 500 2500 800]
+	SymbolLine[0 3000 500 2500 800]
+	SymbolLine[0 3000 500 3500 800]
+	SymbolLine[500 3500 500 4500 800]
+	SymbolLine[500 4500 1000 5000 800]
+)
+Symbol['|' 1200]
+(
+	SymbolLine[0 1000 0 5000 800]
+)
+Symbol['}' 1200]
+(
+	SymbolLine[0 1000 500 1500 800]
+	SymbolLine[500 1500 500 2500 800]
+	SymbolLine[500 2500 1000 3000 800]
+	SymbolLine[500 3500 1000 3000 800]
+	SymbolLine[500 3500 500 4500 800]
+	SymbolLine[0 5000 500 4500 800]
+)
+Symbol['~' 1200]
+(
+	SymbolLine[0 3500 500 3000 800]
+	SymbolLine[500 3000 1000 3000 800]
+	SymbolLine[1000 3000 1500 3500 800]
+	SymbolLine[1500 3500 2000 3500 800]
+	SymbolLine[2000 3500 2500 3000 800]
+)
+Attribute("PCB::grid::unit" "mil")
+Via[354500 78800 3600 2000 0 2000 "" "auto"]
+
+Element["" "DIP16" "U56" "unknown" 20000 20000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "CLK" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "_SET_" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "_RST_" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "J" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "5" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "6" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[0 70000 6000 3000 6600 2800 "8" "8" ""]
+	Pin[30000 70000 6000 3000 6600 2800 "9" "9" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "10" "10" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "11" "11" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "12" "12" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "13" "13" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "_Q_" "14" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "Q" "15" ""]
+	Pin[30000 0 6000 3000 6600 2800 "K" "16" ""]
+	ElementLine [-5000 -5000 -5000 75000 1000]
+	ElementLine [-5000 75000 35000 75000 1000]
+	ElementLine [35000 75000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "DIP16" "U55" "unknown" 70000 20000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "CLK" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "_CL_" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "_CE_" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "J0" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "J1" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "J2" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "J3" "7" ""]
+	Pin[0 70000 6000 3000 6600 2800 "8" "8" ""]
+	Pin[30000 70000 6000 3000 6600 2800 "_APE_" "9" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "J4" "10" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "J5" "11" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "J6" "12" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "J7" "13" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "_CO_" "14" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "_SPE_" "15" ""]
+	Pin[30000 0 6000 3000 6600 2800 "16" "16" ""]
+	ElementLine [-5000 -5000 -5000 75000 1000]
+	ElementLine [-5000 75000 35000 75000 1000]
+	ElementLine [35000 75000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "OSC14" "U54" "1.8432 MHz" 130000 30000 17000 20000 3 100 ""]
+(
+	Pin[0 0 5000 3000 5600 2800 "NC" "1" ""]
+	Pin[0 60000 5000 3000 5600 2800 "GND" "2" ""]
+	Pin[30000 60000 5000 3000 5600 2800 "OUT" "3" ""]
+	Pin[30000 0 5000 3000 5600 2800 "Vcc" "4" ""]
+	ElementLine [-9500 -9500 30000 -9500 1000]
+	ElementLine [39500 0 39500 60000 1000]
+	ElementLine [30000 69500 0 69500 1000]
+	ElementLine [-9500 60000 -9500 -9500 1000]
+	ElementLine [0 -4000 30000 -4000 1000]
+	ElementLine [34000 0 34000 60000 1000]
+	ElementLine [30000 64000 0 64000 1000]
+	ElementLine [-4000 60000 -4000 0 1000]
+	ElementArc [30000 0 9500 9500 180 90 1000]
+	ElementArc [30000 60000 9500 9500 90 90 1000]
+	ElementArc [0 60000 9500 9500 0 90 1000]
+	ElementArc [30000 0 4000 4000 180 90 1000]
+	ElementArc [30000 60000 4000 4000 90 90 1000]
+	ElementArc [0 60000 4000 4000 0 90 1000]
+	ElementArc [0 0 4000 4000 270 90 1000]
+
+	)
+
+Element["" "CONNECTOR-1-2" "CONN50" "unknown" 180000 20000 21000 -5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+	ElementLine [-5000 5000 15000 5000 1000]
+	ElementLine [15000 5000 15000 -5000 1000]
+	ElementLine [15000 -5000 -5000 -5000 1000]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementLine [5000 5000 5000 -5000 1000]
+
+	)
+
+Element["" "ACY400" "C51" ".001uF" 210000 20000 32000 5300 0 100 ""]
+(
+	Pin[0 0 5500 3000 6100 3000 "1" "1" "square,edge2"]
+	Pin[40000 0 5500 3000 6100 3000 "2" "2" "edge2"]
+	ElementLine [0 0 10000 0 1000]
+	ElementLine [30000 0 40000 0 1000]
+	ElementLine [10000 -3300 30000 -3300 1000]
+	ElementLine [30000 -3300 30000 3300 1000]
+	ElementLine [30000 3300 10000 3300 1000]
+	ElementLine [10000 3300 10000 -3300 1000]
+
+	)
+
+Element["" "DIP14" "U52" "unknown" 270000 20000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "A" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "B" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "Y" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "4" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "5" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "6" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "8" "8" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "9" "9" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "10" "10" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "11" "11" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "12" "12" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "13" "13" ""]
+	Pin[30000 0 6000 3000 6600 2800 "14" "14" ""]
+	ElementLine [-5000 -5000 -5000 65000 1000]
+	ElementLine [-5000 65000 35000 65000 1000]
+	ElementLine [35000 65000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "DIP8" "U53" "unknown" 320000 20000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "2" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "3" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "4" "4" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "5" "5" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "6" "6" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[30000 0 6000 3000 6600 2800 "8" "8" ""]
+	ElementLine [-5000 -5000 -5000 35000 1000]
+	ElementLine [-5000 35000 35000 35000 1000]
+	ElementLine [35000 35000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "DIP14" "U51" "unknown" 370000 20000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "A" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "Y" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "A" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "Y" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "A" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "Y" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "Y" "8" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "A" "9" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "Y" "10" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "A" "11" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "12" "12" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "13" "13" ""]
+	Pin[30000 0 6000 3000 6600 2800 "14" "14" ""]
+	ElementLine [-5000 -5000 -5000 65000 1000]
+	ElementLine [-5000 65000 35000 65000 1000]
+	ElementLine [35000 65000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "DIP14" "U50" "unknown" 430000 20000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "_CLR_" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "D" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "CLK" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "_PRE_" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "Q" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "_Q_" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "8" "8" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "9" "9" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "10" "10" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "11" "11" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "12" "12" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "13" "13" ""]
+	Pin[30000 0 6000 3000 6600 2800 "14" "14" ""]
+	ElementLine [-5000 -5000 -5000 65000 1000]
+	ElementLine [-5000 65000 35000 65000 1000]
+	ElementLine [35000 65000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "R025" "R51" "4.7k" 480000 20000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R50" "3.0k" 540000 20000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "ACY400" "C50" ".1uF" 20000 120000 32000 5300 0 100 ""]
+(
+	Pin[0 0 5500 3000 6100 3000 "1" "1" "square,edge2"]
+	Pin[40000 0 5500 3000 6100 3000 "2" "2" "edge2"]
+	ElementLine [0 0 10000 0 1000]
+	ElementLine [30000 0 40000 0 1000]
+	ElementLine [10000 -3300 30000 -3300 1000]
+	ElementLine [30000 -3300 30000 3300 1000]
+	ElementLine [30000 3300 10000 3300 1000]
+	ElementLine [10000 3300 10000 -3300 1000]
+
+	)
+Layer(1 "component")
+(
+	Line[430000 35500 430000 40000 1000 2000 "clearline,auto"]
+	Line[430000 35500 358500 35500 1000 2000 "clearline,auto"]
+	Line[358500 35500 358500 54500 1000 2000 "clearline,auto"]
+	Line[358500 54500 74500 54500 1000 2000 "clearline,auto"]
+	Line[74500 44500 74500 54500 1000 2000 "clearline,auto"]
+	Line[74500 44500 54500 44500 1000 2000 "clearline,auto"]
+	Line[54500 30000 54500 44500 1000 2000 "clearline,auto"]
+	Line[54500 30000 50000 30000 1000 2000 "clearline,auto"]
+	Line[520000 20000 520000 24900 1000 2000 "clearline,auto"]
+	Line[580000 24900 520000 24900 1000 2000 "clearline,auto"]
+	Line[580000 20000 580000 24900 1000 2000 "clearline,auto"]
+	Line[460000 15100 460000 20000 1000 2000 "clearline,auto"]
+	Line[520000 15100 460000 15100 1000 2000 "clearline,auto"]
+	Line[520000 15100 520000 20000 1000 2000 "clearline,auto"]
+	Line[460000 20000 430000 20000 1000 2000 "clearline,auto"]
+	Line[350000 15500 350000 20000 1000 2000 "clearline,auto"]
+	Line[430000 15500 350000 15500 1000 2000 "clearline,auto"]
+	Line[430000 15500 430000 20000 1000 2000 "clearline,auto"]
+	Line[300000 15500 300000 20000 1000 2000 "clearline,auto"]
+	Line[350000 15500 300000 15500 1000 2000 "clearline,auto"]
+	Line[180000 15500 180000 20000 1000 2000 "clearline,auto"]
+	Line[300000 15500 180000 15500 1000 2000 "clearline,auto"]
+	Line[20000 50000 20000 60000 1000 2000 "clearline,auto"]
+	Line[20000 40000 20000 50000 1000 2000 "clearline,auto"]
+	Line[20000 30000 20000 40000 1000 2000 "clearline,auto"]
+	Line[50000 15500 50000 20000 1000 2000 "clearline,auto"]
+	Line[50000 15500 15500 15500 1000 2000 "clearline,auto"]
+	Line[15500 15500 15500 30000 1000 2000 "clearline,auto"]
+	Line[20000 30000 15500 30000 1000 2000 "clearline,auto"]
+	Line[70000 60000 70000 70000 1000 2000 "clearline,auto"]
+	Line[70000 50000 70000 60000 1000 2000 "clearline,auto"]
+	Line[160000 15500 160000 30000 1000 2000 "clearline,auto"]
+	Line[160000 15500 50000 15500 1000 2000 "clearline,auto"]
+	Line[160000 23000 160000 30000 1000 2000 "clearline,auto"]
+	Line[177000 23000 160000 23000 1000 2000 "clearline,auto"]
+	Line[177000 20000 177000 23000 1000 2000 "clearline,auto"]
+	Line[180000 20000 177000 20000 1000 2000 "clearline,auto"]
+	Line[100000 40000 76500 40000 1000 2000 "clearline,auto"]
+	Line[76500 24500 76500 40000 1000 2000 "clearline,auto"]
+	Line[76500 24500 20000 24500 1000 2000 "clearline,auto"]
+	Line[20000 20000 20000 24500 1000 2000 "clearline,auto"]
+	Line[404500 80000 400000 80000 1000 2000 "clearline,auto"]
+	Line[404500 50000 404500 80000 1000 2000 "clearline,auto"]
+	Line[404500 50000 400000 50000 1000 2000 "clearline,auto"]
+	Line[400000 70000 370000 70000 1000 2000 "clearline,auto"]
+	Line[370000 20000 354500 20000 1000 2000 "clearline,auto"]
+	Line[354500 20000 354500 25500 1000 2000 "clearline,auto"]
+	Line[354500 25500 270000 25500 1000 2000 "clearline,auto"]
+	Line[270000 25500 270000 30000 1000 2000 "clearline,auto"]
+	Line[354500 86500 354500 99400 1000 2000 "clearline,auto"]
+	Line[584900 86500 354500 86500 1000 2000 "clearline,auto"]
+	Line[584900 15100 584900 86500 1000 2000 "clearline,auto"]
+	Line[584900 15100 540000 15100 1000 2000 "clearline,auto"]
+	Line[540000 15100 540000 20000 1000 2000 "clearline,auto"]
+	Line[350000 30000 350000 40000 1000 2000 "clearline,auto"]
+	Line[354500 120000 60000 120000 1000 2000 "clearline,auto"]
+	Line[354500 78800 354500 120000 1000 2000 "clearline,auto"]
+	Line[270000 75500 270000 80000 1000 2000 "clearline,auto"]
+	Line[395500 75500 270000 75500 1000 2000 "clearline,auto"]
+	Line[395500 75500 395500 84500 1000 2000 "clearline,auto"]
+	Line[430000 84500 395500 84500 1000 2000 "clearline,auto"]
+	Line[430000 80000 430000 84500 1000 2000 "clearline,auto"]
+	Line[270000 80000 115000 80000 1000 2000 "clearline,auto"]
+	Line[210000 20000 190000 20000 1000 2000 "clearline,auto"]
+	Line[190000 50000 100000 50000 1000 2000 "clearline,auto"]
+	Line[190000 20000 190000 50000 1000 2000 "clearline,auto"]
+	Line[70000 80000 70000 85500 1000 2000 "clearline,auto"]
+	Line[70000 85500 24500 85500 1000 2000 "clearline,auto"]
+	Line[24500 85500 24500 117250 1000 2000 "clearline,auto"]
+	Line[24500 117250 22750 117250 1000 2000 "clearline,auto"]
+	Line[22750 117250 22750 120000 1000 2000 "clearline,auto"]
+	Line[22750 120000 20000 120000 1000 2000 "clearline,auto"]
+	Line[100000 50000 76500 50000 1000 2000 "clearline,auto"]
+	Line[76500 42000 76500 50000 1000 2000 "clearline,auto"]
+	Line[76500 42000 70000 42000 1000 2000 "clearline,auto"]
+	Line[70000 40000 70000 42000 1000 2000 "clearline,auto"]
+	Line[100000 80000 70000 80000 1000 2000 "clearline,auto"]
+	Line[100000 60000 100000 70000 1000 2000 "clearline,auto"]
+	Line[100000 70000 100000 80000 1000 2000 "clearline,auto"]
+	Line[130000 80000 130000 90000 1000 2000 "clearline,auto"]
+	Line[130000 80000 100000 80000 1000 2000 "clearline,auto"]
+	Line[320000 40000 320000 44500 1000 2000 "clearline,auto"]
+	Line[356500 44500 320000 44500 1000 2000 "clearline,auto"]
+	Line[356500 24500 356500 44500 1000 2000 "clearline,auto"]
+	Line[480000 24500 356500 24500 1000 2000 "clearline,auto"]
+	Line[480000 20000 480000 24500 1000 2000 "clearline,auto"]
+	Line[270000 34500 270000 40000 1000 2000 "clearline,auto"]
+	Line[320000 34500 270000 34500 1000 2000 "clearline,auto"]
+	Line[320000 30000 320000 34500 1000 2000 "clearline,auto"]
+)
+Layer(2 "solder")
+(
+	Line[434500 20000 430000 20000 1000 2000 "clearline,auto"]
+	Line[434500 20000 434500 50000 1000 2000 "clearline,auto"]
+	Line[434500 50000 430000 50000 1000 2000 "clearline,auto"]
+	Line[315500 20000 300000 20000 1000 2000 "clearline,auto"]
+	Line[315500 20000 315500 50000 1000 2000 "clearline,auto"]
+	Line[320000 50000 315500 50000 1000 2000 "clearline,auto"]
+	Line[95500 70000 70000 70000 1000 2000 "clearline,auto"]
+	Line[95500 70000 95500 90000 1000 2000 "clearline,auto"]
+	Line[100000 90000 95500 90000 1000 2000 "clearline,auto"]
+	Line[74500 30000 70000 30000 1000 2000 "clearline,auto"]
+	Line[74500 30000 74500 50000 1000 2000 "clearline,auto"]
+	Line[74500 50000 70000 50000 1000 2000 "clearline,auto"]
+	Line[50000 20000 50000 25500 1000 2000 "clearline,auto"]
+	Line[67000 25500 50000 25500 1000 2000 "clearline,auto"]
+	Line[67000 25500 67000 30000 1000 2000 "clearline,auto"]
+	Line[70000 30000 67000 30000 1000 2000 "clearline,auto"]
+	Line[160000 90000 134000 90000 1000 2000 "clearline,auto"]
+	Line[134000 24500 134000 90000 1000 2000 "clearline,auto"]
+	Line[134000 24500 70000 24500 1000 2000 "clearline,auto"]
+	Line[70000 20000 70000 24500 1000 2000 "clearline,auto"]
+	Line[250000 13500 250000 20000 1000 2000 "clearline,auto"]
+	Line[345500 13500 250000 13500 1000 2000 "clearline,auto"]
+	Line[345500 13500 345500 50000 1000 2000 "clearline,auto"]
+	Line[350000 50000 345500 50000 1000 2000 "clearline,auto"]
+	Line[400000 60000 374500 60000 1000 2000 "clearline,auto"]
+	Line[374500 60000 374500 84500 1000 2000 "clearline,auto"]
+	Line[374500 84500 265500 84500 1000 2000 "clearline,auto"]
+	Line[265500 20000 265500 84500 1000 2000 "clearline,auto"]
+	Line[270000 20000 265500 20000 1000 2000 "clearline,auto"]
+	Line[370000 50000 370000 60000 1000 2000 "clearline,auto"]
+	Line[370000 30000 370000 40000 1000 2000 "clearline,auto"]
+	Line[430000 60000 404500 60000 1000 2000 "clearline,auto"]
+	Line[404500 24500 404500 60000 1000 2000 "clearline,auto"]
+	Line[404500 24500 370000 24500 1000 2000 "clearline,auto"]
+	Line[370000 20000 370000 24500 1000 2000 "clearline,auto"]
+	Line[354500 40000 354500 78800 1000 2000 "clearline,auto"]
+	Line[354500 40000 350000 40000 1000 2000 "clearline,auto"]
+	Line[295500 80000 270000 80000 1000 2000 "clearline,auto"]
+	Line[295500 15500 295500 80000 1000 2000 "clearline,auto"]
+	Line[320000 15500 295500 15500 1000 2000 "clearline,auto"]
+	Line[320000 15500 320000 20000 1000 2000 "clearline,auto"]
+	Line[70000 40000 70000 45500 1000 2000 "clearline,auto"]
+	Line[70000 45500 50000 45500 1000 2000 "clearline,auto"]
+	Line[50000 45500 50000 50000 1000 2000 "clearline,auto"]
+	Line[100000 50000 100000 60000 1000 2000 "clearline,auto"]
+)
+Layer(3 "outline")
+(
+)
+Layer(4 "GND")
+(
+)
+Layer(5 "power")
+(
+)
+Layer(6 "signal1")
+(
+)
+Layer(7 "signal2")
+(
+)
+Layer(8 "signal3")
+(
+)
+Layer(9 "silk")
+(
+)
+Layer(10 "silk")
+(
+)
+NetList()
+(
+	Net("CK" "(unknown)")
+	(
+		Connect("CK-1")
+		Connect("U50-3")
+		Connect("U56-15")
+	)
+	Net("CM" "(unknown)")
+	(
+		Connect("U52-3")
+		Connect("U53-2")
+	)
+	Net("CS" "(unknown)")
+	(
+		Connect("CS-1")
+		Connect("R51-1")
+		Connect("U53-3")
+	)
+	Net("CT" "(unknown)")
+	(
+		Connect("CT-1")
+		Connect("U50-2")
+	)
+	Net("GND" "(unknown)")
+	(
+		Connect("C50-1")
+		Connect("C51-1")
+		Connect("CONN50-2")
+		Connect("U50-7")
+		Connect("U52-7")
+		Connect("U53-1")
+		Connect("U54-2")
+		Connect("U55-3")
+		Connect("U55-7")
+		Connect("U55-10")
+		Connect("U55-11")
+		Connect("U55-12")
+		Connect("U55-13")
+		Connect("U56-13")
+	)
+	Net("nCK" "(unknown)")
+	(
+		Connect("U56-14")
+	)
+	Net("unnamed_net1" "(unknown)")
+	(
+		Connect("C50-2")
+		Connect("R50-1")
+		Connect("U53-6")
+		Connect("U53-7")
+	)
+	Net("unnamed_net2" "(unknown)")
+	(
+		Connect("U50-5")
+		Connect("U51-1")
+		Connect("U52-2")
+	)
+	Net("unnamed_net3" "(unknown)")
+	(
+		Connect("U51-2")
+		Connect("U51-3")
+	)
+	Net("unnamed_net4" "(unknown)")
+	(
+		Connect("U51-4")
+		Connect("U51-5")
+	)
+	Net("unnamed_net5" "(unknown)")
+	(
+		Connect("U51-6")
+		Connect("U51-9")
+	)
+	Net("unnamed_net6" "(unknown)")
+	(
+		Connect("U51-8")
+		Connect("U51-11")
+	)
+	Net("unnamed_net7" "(unknown)")
+	(
+		Connect("U51-10")
+		Connect("U52-1")
+	)
+	Net("unnamed_net8" "(unknown)")
+	(
+		Connect("C51-2")
+		Connect("U53-5")
+	)
+	Net("unnamed_net9" "(unknown)")
+	(
+		Connect("U54-3")
+		Connect("U55-1")
+	)
+	Net("unnamed_net10" "(unknown)")
+	(
+		Connect("U55-14")
+		Connect("U56-1")
+	)
+	Net("Vcc" "(unknown)")
+	(
+		Connect("CONN50-1")
+		Connect("R50-2")
+		Connect("R51-2")
+		Connect("U50-1")
+		Connect("U50-4")
+		Connect("U50-14")
+		Connect("U52-14")
+		Connect("U53-4")
+		Connect("U53-8")
+		Connect("U54-4")
+		Connect("U55-2")
+		Connect("U55-4")
+		Connect("U55-5")
+		Connect("U55-6")
+		Connect("U55-9")
+		Connect("U56-2")
+		Connect("U56-3")
+		Connect("U56-4")
+		Connect("U56-5")
+		Connect("U56-16")
+	)
+	Net("VDD" "(unknown)")
+	(
+		Connect("U55-16")
+	)
+	Net("VSS" "(unknown)")
+	(
+		Connect("U55-8")
+	)
+)
