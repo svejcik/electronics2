@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII" standalone="yes"?>
+<project idnum="PS0">
+<documentation>
+ <functionality>
+ </functionality>
+ <specifications>
+ </specifications>
+ <performance>
+ </performance>
+ <document type="technicalnote" name="PS0_narrative.odt"/>
+ <document type="schematic" name="xyz.dxf"/>
+</documentation>
+<history>
+ <item>
+ </item>
+</history>
+<partslist>
+ <part>
+  <describe name="chassis" />
+  <describe mfr="unknown" />
+  <describe mfrpartnumber="unknown" />
+  <describe qty="1"/>
+ </part>
+</partslist>
+</project>

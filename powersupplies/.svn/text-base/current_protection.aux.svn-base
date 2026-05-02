@@ -1,0 +1,11 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Analysis of Horowitz and Hill Foldback Scheme}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Pass transistor configuration discussed by Horowitz and Hill}}{1}}
+\newlabel{fig:horowitz_and_hill_scheme}{{1}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Current protection for pass transistor with foldback.}}{2}}
+\newlabel{fig:foldback-detail-schematic}{{2}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Current protection for pass transistor with foldback.}}{3}}
+\newlabel{fig:predicted-observed}{{3}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Measured I-V curves for pass transistor}}{4}}
+\newlabel{fig:foldbacks}{{4}{4}}

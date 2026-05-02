@@ -1,0 +1,145 @@
+Notes:
+------
+
+ This data was measured as initial estimates
+ and development of technique studying 
+ load and line regulation characteristics.
+ Particular sensitivity to the relationship
+ of Load ground and grounds for control/adjust
+ resistors of regulators for the load
+ regulation.  Under 'optimal' conditions,
+ measurements indicate load regulation of
+ about 0.1-0.3%, consistent with data sheets.
+
+ Line regulation is more difficult to
+ measure and this data does not indicate
+ better than a couple percent at maximum
+ voltage and loading. 
+
+ However, data-sheet consistent line regulation
+ (~.3%) was obtained when output voltage is
+ lowered away from dropout-sensitive values.
+ I suspect that the poor line regulation at
+ 10 V output is due to drop-out and not
+ regulation.
+
+R=10 Ohms (nominal)
+Connecting ground lead on oscilliscope caused
+change of -0.06 V. (around 15:56 on Fri, Nov 3).
+
+____________________________________
+Fri Nov  3 15:44:06 CST 2006 -7.02 V
+Fri Nov  3 15:45:13 CST 2006 -7.03 V
+Fri Nov  3 15:54:01 CST 2006 -7.02 V
+Fri Nov  3 15:58:47 CST 2006 -7.02 V
+Fri Nov  3 16:16:47 CST 2006 -7.02 V
+Fri Nov  3 16:34:04 CST 2006 -7.02 V
+Fri Nov  3 16:43:57 CST 2006 -7.02 V
+Fri Nov  3 17:30:51 CST 2006 -7.02 V
+Fri Nov  3 19:14:22 CST 2006 -7.02 V
+Fri Nov  3 23:35:34 CST 2006 -7.01 V
+Sat Nov  4 01:14:23 CST 2006 -7.01 V
+
+REMOVE LOAD: Sat Nov  4 01:26:17 CST 2006
+Sat Nov  4 01:26:52 CST 2006 -7.23 V
+Sat Nov  4 01:27:42 CST 2006 -7.22 V
+Sat Nov  4 01:30:38 CST 2006 -7.20 V
+Sat Nov  4 01:37:09 CST 2006 -7.18 V
+Sat Nov  4 01:45:42 CST 2006 -7.17 V
+ADD 1/2 LOAD (R_L in Parallel twice)
+Sat Nov  4 01:47:33 CST 2006 -6.79 V
+Sat Nov  4 01:48:08 CST 2006 -6.80 V
+Sat Nov  4 01:49:38 CST 2006 -6.81 V
+Sat Nov  4 01:53:54 CST 2006 -6.81 V
+Sat Nov  4 07:33:58 CST 2006 -6.80 V
+Sat Nov  4 12:35:38 CST 2006 -6.82 V
+
+ADD FULL LOAD: Sat Nov  4 13:16:29 CST 2006
+(shortened lead between load and Vout)
+Sat Nov  4 13:16:38 CST 2006 -7.04 V
+Sat Nov  4 13:18:19 CST 2006 -7.04 V
+Sat Nov  4 13:19:11 CST 2006 -7.05 V
+Sat Nov  4 13:21:16 CST 2006 -7.05 V
+
+GROUND R2(Pot.) near LOAD GROUND Sat Nov  4 13:29:49 CST 2006
+Sat Nov  4 13:30:10 CST 2006 -7.16 V
+Sat Nov  4 13:31:25 CST 2006 -7.16 V
+Sat Nov  4 13:32:28 CST 2006 -7.16 V
+Sat Nov  4 13:36:51 CST 2006 -7.16 V
+
+LENGTHEN DISTANCE BETWEEN LOAD GROUND AND R2 GROUND (measure at load)Sat Nov  4 13:45:58 CST 2006
+
+Sat Nov  4 13:46:05 CST 2006 -7.10 V
+
+TIE R2 TO LOAD GROUND MEASUREMENT POINT BUT LONG
+WAY FROM ACTUAL CIRCUIT GROUND Sat Nov  4 13:47:41 CST 2006
+
+Sat Nov  4 13:47:50 CST 2006 -7.15 V
+Sat Nov  4 13:49:23 CST 2006 -7.15 V
+Sat Nov  4 18:02:55 CST 2006 -7.15 V
+Sat Nov  4 18:06:49 CST 2006 -7.15 V
+
+OPEN UP LOAD (INFINITE RESISTANCE) Sat Nov  4 18:07:23 CST 2006
+
+Sat Nov  4 18:08:39 CST 2006 -7.24 V
+Sat Nov  4 18:09:39 CST 2006 -7.22 V
+Sat Nov  4 18:16:44 CST 2006 -7.19 V
+Sat Nov  4 20:01:42 CST 2006 -7.19 V
+Sat Nov  4 21:05:41 CST 2006 -7.19 V
+
+INCREASE OPEN VOLTAGE TO -10 V:
+OPEN (Infinite R):
+Sat Nov  4 21:19:39 CST 2006 -10.08 V
+Sat Nov  4 21:29:16 CST 2006 -10.07 V
+
+ADD R Sat Nov  4 21:29:52 CST 2006
+Sat Nov  4 21:31:50 CST 2006 - 9.92 V
+Sat Nov  4 21:35:49 CST 2006 - 9.98 V
+Sat Nov  4 21:41:16 CST 2006 -10.01 V
+Sat Nov  4 21:44:32 CST 2006 -10.01 V
+Sat Nov  4 21:47:43 CST 2006 -10.01 V
+Sat Nov  4 21:54:17 CST 2006 -10.02 V
+Sat Nov  4 22:04:06 CST 2006 -10.02 V
+
+LINE REGULATION
+-LOAD ON
+-INPUT DIVIDED DOWN BY 1||50 (Vin=11.96V)
+Sat Nov  4 22:14:24 CST 2006 -9.61 V
+-INPUT DIVIDED DOWN BY 0||50 (Vin=12.41V)
+Sat Nov  4 23:03:08 CST 2006 -9.95 v
+
+LINE REGULATION @ 7 V
+-INPUT DIVIDED DOWN BY 1||50 (Vin=11.96V)
+Sat Nov  4 23:08:02 CST 2006 -6.95V
+-INPUT DIVIDED DOWN BY 0||50 (Vin=12.41V)
+Sat Nov  4 23:03:08 CST 2006 -6.95V
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

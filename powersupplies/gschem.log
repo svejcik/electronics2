@@ -1,0 +1,36 @@
+gEDA/gschem version 1.2.0.20070902
+gEDA/gschem comes with ABSOLUTELY NO WARRANTY; see COPYING for more details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; please see the COPYING file for more details.
+
+Read system-gafrc file [/etc/gEDA/system-gafrc]
+Did not find optional ~/.gEDA/gafrc file [/home/steve/.gEDA/gafrc]
+Did not find optional local gafrc file [/home/steve/gafrc]
+Read system-gschemrc file [/etc/gEDA/system-gschemrc]
+Read ~/.gEDA/gschemrc file [/home/steve/.gEDA/gschemrc]
+Did not find optional local gschemrc file [/home/steve/gschemrc]
+Read init scm file [/usr/share/gEDA/scheme/gschem.scm]
+Did not find specified /home/steve/gafrc file [/home/steve/gafrc]
+Opened file [/home/steve/untitled_1.sch]
+Tried to set the sensitivity on a non-existent menu item
+Did not find specified /home/steve/gafrc file [/home/steve/gafrc]
+Opened file [/home/steve/PS0 Input Unregulated Out]
+Did not find specified /home/steve/gafrc file [/home/steve/gafrc]
+Opened file [/home/steve/PS0 Input Unregulated Out]
+Tried to set the sensitivity on a non-existent menu item
+Did not find specified /home/steve/gafrc file [/home/steve/gafrc]
+Opened file [/home/steve/PS 0.0 Unregulated DC]
+Did not find specified /home/steve/gafrc file [/home/steve/gafrc]
+Opened file [/home/steve/PS 0.0 Unregulated DC]
+Tried to set the sensitivity on a non-existent menu item
+Saved as [/scisw/projects/powersupplies/PS0_UNREGULATED.sch]
+Tried to set the sensitivity on a non-existent menu item
+Did not find specified /scisw/projects/powersupplies/gafrc file [/scisw/projects/powersupplies/gafrc]
+Opened file [/scisw/projects/powersupplies/Horowitz_Hill_Foldback_Fig5.30B.sch]
+Did not find specified /scisw/projects/powersupplies/gafrc file [/scisw/projects/powersupplies/gafrc]
+Opened file [/scisw/projects/powersupplies/Horowitz_Hill_Foldback_Fig5.30B.sch]
+Did not find specified /home/steve/gafrc file [/home/steve/gafrc]
+Opened file [/home/steve/PS 0.0 Block Diagram]
+Did not find specified /home/steve/gafrc file [/home/steve/gafrc]
+Opened file [/home/steve/PS 0.0 Block Diagram]
+Tried to set the sensitivity on a non-existent menu item

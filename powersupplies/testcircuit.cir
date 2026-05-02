@@ -1,0 +1,13 @@
+simple differential pair
+vcc 7 0 12
+vee 8 0 -12
+vin 1 0 ac 1
+rs1 1 2 1k
+rs2 6 0 1k
+q1 3 2 4 mod1
+q2 5 6 4 mod1
+rc1 7 3 1k
+rc2 7 5 10k
+re 4 8 10k
+.MODEL mod1 npn level=1 bf=50 vaf=50 is=1.E-12 RB=100 CJC=.5PF TF=.6NS
+.END

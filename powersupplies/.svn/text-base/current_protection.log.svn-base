@@ -1,0 +1,138 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2007.6.27)  3 NOV 2007 16:28
+entering extended mode
+ %&-line parsing enabled.
+**current_protection.tex
+(./current_protection.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(./current_protection.aux)
+\openout1 = `current_protection.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+Overfull \hbox (5.80461pt too wide) in paragraph at lines 6--6
+[]\OT1/cmr/bx/n/14.4 Analysis of Horowitz and Hill Fold-back Scheme 
+ []
+
+<Horowitz_Hill_Foldback_Fig5_30B.jpeg, id=1, 803.0pt x 602.25pt>
+File: Horowitz_Hill_Foldback_Fig5_30B.jpeg Graphic file (type jpg)
+
+<use Horowitz_Hill_Foldback_Fig5_30B.jpeg>
+<foldback_1.jpeg, id=2, 803.0pt x 602.25pt>
+File: foldback_1.jpeg Graphic file (type jpg)
+ <use foldback_1.jpeg>
+File: foldback_1.jpeg Graphic file (type jpg)
+
+<use foldback_1.jpeg>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 42.
+
+
+LaTeX Warning: Reference `fig:lm337_i_v' on page 1 undefined on input line 46.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Horowitz_Hill_Foldback_F
+ig5_30B.jpeg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+
+
+LaTeX Warning: Reference `Table:examples' on page 2 undefined on input line 86.
+
+
+[2 <./foldback_1.jpeg>]
+
+LaTeX Warning: Command \O invalid in math mode on input line 120.
+
+[3] <pass_current_vs_vout.pdf, id=22, 433.62pt x 433.62pt>
+File: pass_current_vs_vout.pdf Graphic file (type pdf)
+
+<use pass_current_vs_vout.pdf> [4 <./pass_current_vs_vout.pdf>]
+(./current_protection.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 604 strings out of 95086
+ 7652 string characters out of 1183255
+ 56112 words of memory out of 1500000
+ 3829 multiletter control sequences out of 10000+50000
+ 4899 words of font info for 18 fonts, out of 1200000 for 2000
+ 28 hyphenation exceptions out of 8191
+ 25i,6n,21p,401b,245s stack positions out of 5000i,500n,6000p,200000b,5000s
+</usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf
+-texlive/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type
+1/bluesky/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmmi5.
+pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmmi7.pfb></usr/share/texm
+f-texlive/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type
+1/bluesky/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr7.pfb
+></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf-
+texlive/fonts/type1/bluesky/cm/cmti10.pfb>
+Output written on current_protection.pdf (4 pages, 120715 bytes).
+PDF statistics:
+ 63 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+
