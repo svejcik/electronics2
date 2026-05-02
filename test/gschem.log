@@ -1,0 +1,14 @@
+gEDA/gschem version 1.4.0.20080127
+gEDA/gschem comes with ABSOLUTELY NO WARRANTY; see COPYING for more details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; please see the COPYING file for more details.
+
+Read system-gafrc file [/etc/gEDA/system-gafrc]
+Did not find optional ~/.gEDA/gafrc file [/home/steve/.gEDA/gafrc]
+Did not find optional local gafrc file [/scisw/projects/test/gafrc]
+Read system-gschemrc file [/etc/gEDA/system-gschemrc]
+Read ~/.gEDA/gschemrc file [/home/steve/.gEDA/gschemrc]
+Did not find optional local gschemrc file [/scisw/projects/test/gschemrc]
+Read init scm file [/usr/share/gEDA/scheme/gschem.scm]
+Loading schematic [/scisw/projects/test/../misc/VBE00/bandgap_reference_v0.2.sch]
+Did not find specified gafrc file [/scisw/projects/misc/VBE00/gafrc]

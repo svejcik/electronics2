@@ -1,0 +1,10 @@
+# Files for simple dac.
+# This dac is standalone with its own power supply
+# Currently, two schematics are used:
+# bandgap reference and power
+#
+schematics test.sch test-bits3-6.sch test-r-2r-ladder.sch
+output-name test.project
+
+# After editing schematics. run gsch2pcb
+# to generate .net, .pcb, and .new.pcb files

@@ -1,0 +1,10 @@
+Vcc	CONN12-1 U12-3 
++Vdd	CONN11-1 U11-6 
+-Vdd	CONN10-1 U11-3 
+unnamed_net6	R11-2 U12-1 U11-7 U10-3 J10-6 
+GND	U12-2 R10-1 R11-1 U11-1 J10-7 
+unnamed_net5	R10-2 U11-4 U10-4 J10-8 
+unnamed_net4	U10-1 J10-9 
+unnamed_net3	U10-2 J10-10 
+unnamed_net2	C11-1 J10-5 
+unnamed_net1	C10-2 J10-3 

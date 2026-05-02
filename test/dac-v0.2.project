@@ -1,0 +1,13 @@
+# Files for simple dac.
+# This dac is standalone with its own power supply
+# Currently, two schematics are used:
+# bandgap reference and power
+#
+schematics bandgap_reference_v0.2.sch dacpower_v0.2.sch
+output-name dac_v0.2.project
+
+# After editing schematics:
+# gnetlist  -g drc2 bandgap_reference_v0.2.sch -o bgout.txt
+# (also use -vv sometimes with gnetlist)
+# run gsch2pcb
+# to generate .net, .pcb, and .new.pcb files
